@@ -1,0 +1,47 @@
+<!-- injecting react component into an existing website which does not use react -->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- react cdn links -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- babel js compiler cdn -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+    <h1>My website</h1>
+    <div id="banner"></div>
+    <footer>
+        <p>footer</p>
+    </footer>
+
+    <script type="text/babel">
+        // creating a react component -> should always start with a capital letter and avoid using html tag names to components like header, p, etc
+        // in component we can create js functionality or create a template for the component, here latter
+        // in order to create a template, we need to return it from a function
+        const Banner = () => {
+            return (
+                <div>
+                    <p>banner</p>
+                </div>
+            )
+        }
+
+        // insert it into the dom
+        // arguments -> the component to be inserted, place in the dom where it needs to be inserted
+        ReactDOM.render(<Banner />, document.getElementById('banner'))
+
+        // need to use babel js compiler here because browser does not understand jsx and also reactdom.render is no longer supported in react 18
+
+        // when this component is rendered to the dom that jsx is compiled into regular js by babel (browser does not understand jsx) and js injects this structure into the dom
+    </script>
+</body>
+
+</html>

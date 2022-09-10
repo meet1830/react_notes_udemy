@@ -1,0 +1,10 @@
+/* css modules automatically scope css rules to only apply to elements in specific components and not globally */
+
+.card {
+    border: 1px solid #eee;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.05);
+    padding: 10px;
+    max-width: 400px;
+    margin: 2px auto;
+    border-radius: 4px;
+}

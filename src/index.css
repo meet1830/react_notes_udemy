@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* global style sheets for common elements or classes that are used in many different places in your application for eg heading styles, button styles */
+/* use the global style sheet to build upon the theme of the website, these styles will be used across all components and app.js. Should not enter class based specific to a component css here */
+/* component specific style sheets are also global. if applied an element selector like h1, then it will apply to all over the site. style tags for those css files will always be in the head of html page. so modular css files are just for us to separate css code which makes it easier to manage and update 
+- way around this add a class to the root element of the component and then target the selector in it for example {modal h2} this will select all h2s from modal component. making this a habit for every component is beneficial. so even if the classnames are identical then also the selection is scoped for that component only */
+/* in inline css we define style as key value pairs of an object hence require two curly braces {{ keyCamelCased) : "string" }} the properties are camel cased(instead of (-) hyphen) and their values are written as string */
