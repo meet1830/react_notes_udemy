@@ -20,7 +20,20 @@ import reportWebVitals from './reportWebVitals';
 // import App from './Notes/05_031/01_App'
 // import App from './Notes/05_032/01_App'
 // import App from './Notes/06_037/01_App'
-import App from './Notes/07_040/01_App'
+// import App from './Notes/07_040/01_App'
+// import App from './Notes/07_041/01_App'
+// import App from './Notes/07_042/01_App'
+// import App from './Notes/07_043/01_App'
+// import App from './Notes/07_044/01_App'
+// import App from './Notes/07_045/01_App'
+// import App from './Notes/07_046/01_App'
+// import App from './Notes/08_047/01_App'
+// import App from './Notes/08_048/01_App'
+// import App from './Notes/08_049/01_App'
+// import App from './Notes/08_050/01_App'
+// import App from './Notes/08_051/01_App'
+// import App from './Notes/08_052/01_App'
+import App from './Notes/08_053/01_App'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
