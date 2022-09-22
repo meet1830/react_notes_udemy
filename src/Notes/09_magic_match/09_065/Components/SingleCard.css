@@ -1,0 +1,23 @@
+.card {
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 6px;
+}
+
+/* adding css for flipping of cards */
+.card .front {
+    position: absolute;
+    /* positioned absolute relative .card and hence will sit right on top of it */
+    transform: rotateY(90deg);
+    /* hidding the card using transform instead of display none */
+}
+
+.flipped .front {
+    transform: rotateY(0deg);
+    /* again see the image */
+}

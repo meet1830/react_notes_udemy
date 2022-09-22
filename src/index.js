@@ -33,7 +33,11 @@ import reportWebVitals from './reportWebVitals';
 // import App from './Notes/08_050/01_App'
 // import App from './Notes/08_051/01_App'
 // import App from './Notes/08_052/01_App'
-import App from './Notes/08_053/01_App'
+// import App from './Notes/08_053/01_App'
+// import App from './Notes/08_054/01_App'
+// import App from './Notes/08_055/01_App'
+// import App from './Notes/08_056/01_App'
+import App from './Notes/09_magic_match/09_068/App'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
